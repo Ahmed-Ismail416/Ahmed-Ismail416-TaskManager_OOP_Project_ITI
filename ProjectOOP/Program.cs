@@ -9,6 +9,8 @@ namespace TaskManager
     {
         static void Main(string[] args)
         {
+            // encode for terminal
+            Console.OutputEncoding = Encoding.UTF8;
             User user = new User();
             UserManager userManager = new UserManager();
             UserTask task = new UserTask();
@@ -31,6 +33,7 @@ namespace TaskManager
                 Console.WriteLine(" [3] End The Program");
                 Console.Write("Your choice: ");
                 Choice = Console.ReadLine() ?? "";
+                bool flag2 = false ;
                 switch (Choice)
                 {
                     case "1":
@@ -60,11 +63,28 @@ namespace TaskManager
                         break;
                     case "2":
                         {
+                           
                             Console.WriteLine("\n📝 Please provide your details to sign up.");
                             Console.Write("👤 Name: ");
                             string name = Console.ReadLine() ?? "";
-                            Console.Write("📧 Email: ");
-                            string email = Console.ReadLine() ?? "";
+                            string email;
+                            // do confirm  for the email 
+                            do
+                            {
+                                Console.Write("📧 Email: ");
+                                email = Console.ReadLine() ?? "";
+                                if (email.Contains("@") && email.Contains("."))
+                                    flag2 = true;
+                                else
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("❌ Invalid email format. Please enter a valid email address.");
+                                    Console.ResetColor();
+                                  
+                                }
+                                       
+
+                            }while(flag2 == false);
                             Console.Write("🔑 Password: ");
                             string password = Console.ReadLine() ?? "";
                             if(userManager.RegisterUser(name, email, password))
@@ -122,31 +142,32 @@ namespace TaskManager
                 switch (Choice)
                 {
                     case "1":
+                        var addTask = new UserTask();
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("\n📝 Let's add a new task!");
                         Console.ResetColor();
                         Console.Write("Enter Task Title: ");
-                        task.Title = Console.ReadLine() ?? "";
+                        addTask.Title = Console.ReadLine() ?? "";
                         Console.Write("Enter Task Description: ");
-                        task.Description = Console.ReadLine() ?? "";
+                        addTask.Description = Console.ReadLine() ?? "";
                         Console.Write("Enter Due Date (yyyy-MM-dd): ");
                         if (DateTime.TryParse(Console.ReadLine(), out DateTime dueDate))
-                            task.DueDate = dueDate;
+                            addTask.DueDate = dueDate;
                         else
-                            task.DueDate = DateTime.Now.AddDays(1);
+                            addTask.DueDate = DateTime.Now.AddDays(1);
                         Console.Write("Enter Priority (Low, Medium, High): ");
                         if (Enum.TryParse<PriorityLevel>(Console.ReadLine(), true, out PriorityLevel priority))
-                            task.Priority = priority;
+                            addTask.Priority = priority;
                         else
-                            task.Priority = PriorityLevel.Medium;
+                            addTask.Priority = PriorityLevel.Medium;
                         Console.Write("Enter Category (Study, Work, Personal, Health, Other): ");
                         if (Enum.TryParse<CategoryType>(Console.ReadLine(), true, out CategoryType category))
-                            task.Category = category;
+                            addTask.Category = category;
                         else
-                            task.Category = CategoryType.Other;
-                        task.IsCompleted = false;
-                        task.UserEmail = user.Email;
-                        if (taskList.AddTask(task))
+                            addTask.Category = CategoryType.Other;
+                        addTask.IsCompleted = false;
+                        addTask.UserEmail = user.Email;
+                        if (taskList.AddTask(addTask))
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("✅ Task added successfully!");
@@ -157,6 +178,7 @@ namespace TaskManager
                             Console.WriteLine("❌ Task not added!");
                         break;
                     case "2":
+                        
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine("\n✏️ Edit an existing task.");
                         Console.ResetColor();

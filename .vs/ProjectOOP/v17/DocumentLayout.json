@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\managers\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\managers\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\managers\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\managers\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\managers\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\managers\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\enums\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\enums\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|c:\\users\\ahmed\\source\\repos\\newrepo4\\projectoop\\enums\\categorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78CEACF-95ED-4CC3-86AE-EEE265805E78}|ProjectOOP\\TaskManager.csproj|solutionrelative:projectoop\\enums\\categorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +50,119 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserTask.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Models\\UserTask.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Models\\UserTask.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Models\\UserTask.cs",
+              "RelativeToolTip": "ProjectOOP\\Models\\UserTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:39:35.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "users.json",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Data\\users.json",
+              "RelativeDocumentMoniker": "ProjectOOP\\Data\\users.json",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Data\\users.json",
+              "RelativeToolTip": "ProjectOOP\\Data\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T18:57:40.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Program.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Program.cs",
+              "RelativeToolTip": "ProjectOOP\\Program.cs",
+              "ViewState": "AgIAAKUAAAAAZmZmZmYSwKkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:36:37.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Models\\User.cs",
+              "RelativeToolTip": "ProjectOOP\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:36:30.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Managers\\UserManager.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Managers\\UserManager.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Managers\\UserManager.cs",
+              "RelativeToolTip": "ProjectOOP\\Managers\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:36:24.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskList.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Managers\\TaskList.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Managers\\TaskList.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Managers\\TaskList.cs",
+              "RelativeToolTip": "ProjectOOP\\Managers\\TaskList.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:36:19.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PriorityLevel.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Enums\\PriorityLevel.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Enums\\PriorityLevel.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Enums\\PriorityLevel.cs",
+              "RelativeToolTip": "ProjectOOP\\Enums\\PriorityLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:36:10.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryType.cs",
+              "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Enums\\CategoryType.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Enums\\CategoryType.cs",
+              "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Enums\\CategoryType.cs",
+              "RelativeToolTip": "ProjectOOP\\Enums\\CategoryType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T13:36:02.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FileManager.cs",
               "DocumentMoniker": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Managers\\FileManager.cs",
               "RelativeDocumentMoniker": "ProjectOOP\\Managers\\FileManager.cs",
               "ToolTip": "C:\\Users\\AHMED\\source\\repos\\NewRepo4\\ProjectOOP\\Managers\\FileManager.cs",
               "RelativeToolTip": "ProjectOOP\\Managers\\FileManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T13:18:06.117Z",
               "EditorCaption": ""
